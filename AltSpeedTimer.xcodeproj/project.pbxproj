@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451C3A052499E062004CF6D6 /* SF-Mono-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 451C3A042499E062004CF6D6 /* SF-Mono-Medium.otf */; };
+		451C3A072499E139004CF6D6 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 451C3A062499E139004CF6D6 /* SF-Pro-Display-Regular.otf */; };
 		45D4C0842496054200035BE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C0832496054200035BE3 /* AppDelegate.swift */; };
 		45D4C0862496054200035BE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C0852496054200035BE3 /* SceneDelegate.swift */; };
 		45D4C0882496054200035BE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C0872496054200035BE3 /* ContentView.swift */; };
 		45D4C08A2496054400035BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D4C0892496054400035BE3 /* Assets.xcassets */; };
 		45D4C08D2496054400035BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D4C08C2496054400035BE3 /* Preview Assets.xcassets */; };
 		45D4C0902496054400035BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D4C08E2496054400035BE3 /* LaunchScreen.storyboard */; };
+		45D4C0982496059900035BE3 /* TimerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C0972496059900035BE3 /* TimerState.swift */; };
+		45D4C09A249606EC00035BE3 /* AltSpeedTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C099249606EC00035BE3 /* AltSpeedTimer.swift */; };
+		45D4C09C2496092F00035BE3 /* TimeMSm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C09B2496092F00035BE3 /* TimeMSm.swift */; };
+		45D4C09E2496183E00035BE3 /* SecondsToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C09D2496183E00035BE3 /* SecondsToString.swift */; };
+		45D4C0A0249630AA00035BE3 /* HiddenViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C09F249630AA00035BE3 /* HiddenViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		451C39E12498CB85004CF6D6 /* AltSpeedTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AltSpeedTimer.entitlements; sourceTree = "<group>"; };
+		451C3A042499E062004CF6D6 /* SF-Mono-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Medium.otf"; sourceTree = "<group>"; };
+		451C3A062499E139004CF6D6 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		45D4C0802496054100035BE3 /* AltSpeedTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltSpeedTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D4C0832496054200035BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45D4C0852496054200035BE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,11 @@
 		45D4C08C2496054400035BE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45D4C08F2496054400035BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45D4C0912496054400035BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D4C0972496059900035BE3 /* TimerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerState.swift; sourceTree = "<group>"; };
+		45D4C099249606EC00035BE3 /* AltSpeedTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltSpeedTimer.swift; sourceTree = "<group>"; };
+		45D4C09B2496092F00035BE3 /* TimeMSm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMSm.swift; sourceTree = "<group>"; };
+		45D4C09D2496183E00035BE3 /* SecondsToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondsToString.swift; sourceTree = "<group>"; };
+		45D4C09F249630AA00035BE3 /* HiddenViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,10 @@
 		45D4C0822496054100035BE3 /* AltSpeedTimer */ = {
 			isa = PBXGroup;
 			children = (
+				451C3A062499E139004CF6D6 /* SF-Pro-Display-Regular.otf */,
+				451C3A042499E062004CF6D6 /* SF-Mono-Medium.otf */,
+				451C39E12498CB85004CF6D6 /* AltSpeedTimer.entitlements */,
+				45D4C09D2496183E00035BE3 /* SecondsToString.swift */,
 				45D4C0832496054200035BE3 /* AppDelegate.swift */,
 				45D4C0852496054200035BE3 /* SceneDelegate.swift */,
 				45D4C0872496054200035BE3 /* ContentView.swift */,
@@ -63,6 +82,10 @@
 				45D4C08E2496054400035BE3 /* LaunchScreen.storyboard */,
 				45D4C0912496054400035BE3 /* Info.plist */,
 				45D4C08B2496054400035BE3 /* Preview Content */,
+				45D4C0972496059900035BE3 /* TimerState.swift */,
+				45D4C099249606EC00035BE3 /* AltSpeedTimer.swift */,
+				45D4C09B2496092F00035BE3 /* TimeMSm.swift */,
+				45D4C09F249630AA00035BE3 /* HiddenViewExtension.swift */,
 			);
 			path = AltSpeedTimer;
 			sourceTree = "<group>";
@@ -135,6 +158,8 @@
 			files = (
 				45D4C0902496054400035BE3 /* LaunchScreen.storyboard in Resources */,
 				45D4C08D2496054400035BE3 /* Preview Assets.xcassets in Resources */,
+				451C3A052499E062004CF6D6 /* SF-Mono-Medium.otf in Resources */,
+				451C3A072499E139004CF6D6 /* SF-Pro-Display-Regular.otf in Resources */,
 				45D4C08A2496054400035BE3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D4C0A0249630AA00035BE3 /* HiddenViewExtension.swift in Sources */,
+				45D4C09C2496092F00035BE3 /* TimeMSm.swift in Sources */,
 				45D4C0842496054200035BE3 /* AppDelegate.swift in Sources */,
+				45D4C0982496059900035BE3 /* TimerState.swift in Sources */,
+				45D4C09A249606EC00035BE3 /* AltSpeedTimer.swift in Sources */,
+				45D4C09E2496183E00035BE3 /* SecondsToString.swift in Sources */,
 				45D4C0862496054200035BE3 /* SceneDelegate.swift in Sources */,
 				45D4C0882496054200035BE3 /* ContentView.swift in Sources */,
 			);
@@ -284,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AltSpeedTimer/AltSpeedTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AltSpeedTimer/Preview Content\"";
 				DEVELOPMENT_TEAM = CGV4FNR7SA;
@@ -295,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.psc.AltSpeedTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AltSpeedTimer/AltSpeedTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AltSpeedTimer/Preview Content\"";
 				DEVELOPMENT_TEAM = CGV4FNR7SA;
@@ -315,6 +348,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.psc.AltSpeedTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

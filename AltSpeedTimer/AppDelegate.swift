@@ -11,7 +11,13 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    static var orientationLock = UIDevice.current.userInterfaceIdiom == .pad ? UIInterfaceOrientationMask.landscape : UIInterfaceOrientationMask.portrait
+    
+    static var isPad = UIDevice.current.userInterfaceIdiom == .pad ? true : false
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return AppDelegate.orientationLock
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
